@@ -17,7 +17,9 @@ sub _cleanup {
 sub _init {
 	my ($self, $xml) = @_;
 
-	return $self->{'_xml'} = $xml;
+	$self->{'_xml'} = $xml;
+
+	return;
 }
 
 # Process 'Tags'.
