@@ -43,4 +43,10 @@ sub _process {
 	return;
 }
 
+sub _process_css {
+	my $self = shift;
+
+	return;
+}
+
 1;
